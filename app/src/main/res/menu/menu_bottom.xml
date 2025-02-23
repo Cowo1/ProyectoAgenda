@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itmActividades"
+        android:icon="@drawable/icon_actividades"
+        android:title="@string/Actividades"/>
+
+    <item
+        android:id="@+id/itmImportantes"
+        android:icon="@drawable/icon_importantes"
+        android:title="@string/Importantes"/>
+    <item
+        android:id="@+id/itmNotas"
+        android:icon="@drawable/icon_notas"
+        android:title="@string/notas"/>
+    <item
+        android:id="@+id/itmActFinalizadas"
+        android:icon="@drawable/icon_actfinalizadas"
+        android:title="@string/Finalizadas"/>
+
+</menu>

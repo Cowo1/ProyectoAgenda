@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_secondary"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTitulo"
+        android:layout_width="388dp"
+        android:layout_height="54dp"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint"
+        android:hint="Título"
+        android:inputType="text"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etDescripcion"
+        android:layout_width="388dp"
+        android:layout_height="55dp"
+        android:hint="Descripción"
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint"
+        android:inputType="textMultiLine"
+        android:textSize="16sp" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="312dp"
+        android:text="Agregar actividad" />
+
+    <Button
+        android:id="@+id/btnVerActividad"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="268dp"
+        android:text="Ver Actividades" />
+</LinearLayout>

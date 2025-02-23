@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_secondary"
+    >
+
+    <EditText
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/bg_editextt"
+        android:textColorHint="@color/text_hint"
+        android:textColor="@color/text_primary"
+        android:inputType="textCapWords"
+        android:layout_marginBottom="16dp"
+      />
+    <EditText
+        android:id="@+id/txtContenidoN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Contenido"
+        android:textColorHint="@color/text_hint"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:background="@drawable/bg_editextt"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:minLines="10"/>
+
+    <Button
+        android:id="@+id/btnGuardarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_margin="16dp"
+       android:background="@drawable/button_primary"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+

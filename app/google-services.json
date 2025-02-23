@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "204118368032",
+    "project_id": "proyecto-agenda-dc",
+    "storage_bucket": "proyecto-agenda-dc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204118368032:android:ef4bf50f8eefd062518145",
+        "android_client_info": {
+          "package_name": "com.intecap.proyectoagenda"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-7XMg36C3ZwKIcLpXI4l9vrHNxthJPX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

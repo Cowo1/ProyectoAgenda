@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+   app:startDestination="@id/paginaActividades">
+
+    <fragment
+        android:id="@+id/paginaActividades"
+        android:name="com.intecap.proyectoagenda.ActividadFragment"
+        tools:layout="@layout/fragment_actividades">
+        <action
+            android:id="@+id/action_finalizada"
+            app:destination="@+id/paginaActFinalizadas"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/paginaImportantes"
+        android:name="com.intecap.proyectoagenda.ImportantesFragment"
+        tools:layout="@layout/fragment_importantes"/>
+
+
+    <fragment
+        android:id="@+id/paginaNotas"
+        android:name="com.intecap.proyectoagenda.NotasFragment"
+        tools:layout="@layout/fragment_notas">
+    <action
+        android:id="@+id/action_notas"
+        app:destination="@+id/paginaCrearNota"/>
+        <action
+            android:id="@+id/action_detalle"
+            app:destination="@+id/paginaDetalleNota"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/paginaActFinalizadas"
+        android:name="com.intecap.proyectoagenda.ActFinalizadasFragment"
+        tools:layout="@layout/fragment_actfinalizadas"/>
+    <fragment
+        android:id="@+id/paginaCrearActividad"
+        android:name="com.intecap.proyectoagenda.CrearActividad"
+        tools:layout="@layout/fragment_crearactividad">
+        <action
+            android:id="@+id/action_crearActividad"
+            app:destination="@+id/paginaActividades"/>
+        <action
+            android:id="@+id/action_volverA"
+            app:destination="@+id/paginaActividades"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/paginaCrearNota"
+        android:name="com.intecap.proyectoagenda.CrearNotasFragment"
+        tools:layout="@layout/fragment_crearnota">
+        <action
+            android:id="@+id/action_volverN"
+            app:destination="@+id/paginaNotas"/>
+        <action
+            android:id="@+id/actionGuardar"
+            app:destination="@+id/paginaNotas"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/paginaDetalleNota"
+        android:name="com.intecap.proyectoagenda.DetalleNotaFragment"
+        tools:layout="@layout/nota_detalle">
+        <action
+            android:id="@+id/action_volverNotas"
+            app:destination="@+id/paginaNotas"/>
+    </fragment>
+
+
+
+</navigation>

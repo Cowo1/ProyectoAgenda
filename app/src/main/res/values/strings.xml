@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">ProyectoAgenda</string>
+    <string name="Actividades" translatable="false">Actividades</string>
+    <string name="Importantes" translatable="false">Importantes\n</string>
+    <string name="notas" translatable="false">Notas\n</string>
+    <string name="Finalizadas" translatable="false">Finalizadas\n</string>
+    <string name="EscribeActividad">Escribe una actividad\n</string>
+    <string name="Agregar_Actividad">Agregar notas\n</string>
+    <string name="EscribeNota">Escribe la nota</string>
+    <string name="registro">No tienes una cuenta? Registrate\n</string>
+    <string name="inicioSesion">Iniciar sesion con Google</string>
+</resources>

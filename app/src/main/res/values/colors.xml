@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fondo Principal -->
+    <color name="background_primary">#121212</color>
+    <color name="background_secondary">#1E1E1E</color>
+
+    <!-- Texto -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_hint">#808080</color>
+
+    <!-- Botones -->
+    <color name="button_primary_start">#0D47A1</color>
+    <color name="button_primary_end">#2196F3</color>
+    <color name="button_secondary_start">#121212</color>
+    <color name="button_secondary_end">#2C2C2C</color>
+
+    <!-- CardViews -->
+    <color name="card_background">#1F1F1F</color>
+    <color name="card_shadow">#3D3D3D</color>
+
+    <!-- Accentos -->
+    <color name="accent_red">#D32F2F</color>
+    <color name="accent_green">#388E3C</color>
+    <color name="accent_yellow">#FBC02D</color>
+
+    <!-- Barra de Navegación -->
+    <color name="nav_start">#595959</color>
+    <color name="nav_end">#1F1313</color>
+
+    <color name="darkBlue">#1A73E8</color> <!-- Azul oscuro para ítems seleccionados -->
+    <color name="grayLight">#B0BEC5</color> <!-- Gris claro para ítems no seleccionados -->
+
+</resources>
