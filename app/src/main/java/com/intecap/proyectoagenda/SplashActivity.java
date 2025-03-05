@@ -21,7 +21,9 @@ public class SplashActivity extends AppCompatActivity {
        new Handler().postDelayed(()->{
            FirebaseUser currentUser = mAuth.getCurrentUser();
            if(currentUser != null){
-               startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+               startActivity(new Intent(SplashActivity.this, MainActivity.class));
+           }else {
+              startActivity(new Intent(SplashActivity.this, LoginActivity.class));
            }
            finish();
        },2000);

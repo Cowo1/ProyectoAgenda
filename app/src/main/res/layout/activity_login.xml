@@ -14,7 +14,7 @@
         android:hint="Correo Electronico"
         android:inputType="textEmailAddress"
         android:padding="12dp"
-        android:background="white"/>
+        android:textColor="@color/text_primary"/>
     <Button
         android:id="@+id/btn_login"
         android:layout_width="wrap_content"
@@ -45,6 +45,7 @@
         android:layout_height="wrap_content"
         android:text="@string/inicioSesion"
         android:drawablePadding="8dp"
+        android:drawableLeft="@drawable/icon_google"
         android:padding="16dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/background_primary"

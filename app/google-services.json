@@ -12,7 +12,20 @@
           "package_name": "com.intecap.proyectoagenda"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "204118368032-mi7kco2mt9lm32tes8020dhqbslasf9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.intecap.proyectoagenda",
+            "certificate_hash": "d37519c203148182c24f48dab06bf698a1402dc6"
+          }
+        },
+        {
+          "client_id": "204118368032-hlmv8kbvrf8496vlle4qqq5bn616k7kv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB-7XMg36C3ZwKIcLpXI4l9vrHNxthJPX4"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204118368032-hlmv8kbvrf8496vlle4qqq5bn616k7kv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
